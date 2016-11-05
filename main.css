@@ -9,6 +9,7 @@
 }
 
 
+
 /*----------
 ---Header---
 ----------*/
@@ -388,7 +389,7 @@ hr{
 
 
 /*----------------
----Footer---
+---Footer---------
 ----------------*/
 
 footer{
@@ -404,16 +405,18 @@ footer{
 	margin: 0 auto;
 	padding-top: 50px;
 }
-.footer-content hr{
-	background: #555758;
-	margin-bottom: 27px;
-}
-.footer-row{
-	width: 100%;
-	height: 205px;
-	padding-left: 100px;
-	margin-bottom: 50px;
-}
+	.footer-content hr{
+		background: #555758;
+		margin-bottom: 27px;
+	}
+	.footer-row{
+		width: 100%;
+		height: 205px;
+		padding-left: 100px;
+		margin-bottom: 50px;
+	}
+
+
 /*---selectors---*/
 
 .selectors{
@@ -437,64 +440,70 @@ footer{
 	}
 
 
-
 /*---lists---*/
+
 .lists{
 	float: left;
 }
 
-.lists ul{
-	color: #fff;
-	list-style: none;
-	float: left;
-	width: 160px;
-	height: 175px;
-}
-.lists ul h3{
-	margin-bottom: 22px;
-	font-size: 16px;
-}
-.lists ul li{
-	margin-bottom: 5px;
-	font-size: 14px;
-}
+	.lists ul{
+		color: #fff;
+		list-style: none;
+		float: left;
+		width: 160px;
+		height: 175px;
+	}
+	.lists ul h3{
+		margin-bottom: 22px;
+		font-size: 16px;
+	}
+	.lists ul li{
+		margin-bottom: 5px;
+		font-size: 14px;
+	}
+
+
+/*---socialnetwork-icons---*/
 
 .socialnetworks{
 	width: 100%;
 	height: 82px;
 	margin-bottom: 15px;
 }
-.socialnetworks h2{
-	text-align: center;
-	color: #fff;
-	font-size: 16px;
-	margin-bottom: 25px;
-}
-.icons{
-	width: 343px;
-	height: 37px;
-  margin: 0 auto;
-}
-.icons div{
-	display: inline-block;
-	float: left;
-	width: 35px;
-	height: 35px;
-	border: 1px solid #fff;
-	border-radius: 100%;
-	padding: 9px;
-	margin-right: 16px;
-}
-.icons div:last-child{
-	margin-right: 0;
-}
-.icons div svg{
-  	fill: currentColor;
-	color: red;
-	width: 15px;
-	height: 15px;
-	color: #fff;
-}
+	.socialnetworks h2{
+		text-align: center;
+		color: #fff;
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+	.icons{
+		width: 343px;
+		height: 37px;
+	  margin: 0 auto;
+	}
+	.icons div{
+		display: inline-block;
+		float: left;
+		width: 35px;
+		height: 35px;
+		border: 1px solid #fff;
+		border-radius: 100%;
+		padding: 9px;
+		margin-right: 16px;
+	}
+		.icons div:last-child{
+			margin-right: 0;
+		}
+	.icons div svg{
+	  	fill: currentColor;
+		color: red;
+		width: 15px;
+		height: 15px;
+		color: #fff;
+	}
+
+
+/*---copyright---*/
 
 .copyright{
 	text-align: center;
